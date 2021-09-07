@@ -1,0 +1,23 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/francescofacca/Projects/band-pass-filter/spec/frequency_filter_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/francescofacca/Projects/band-pass-filter/lib/frequency_filter.rb": {
+        "lines": [
+          1,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1631058610
+  }
+}
