@@ -1,3 +1,3 @@
-class FrequencyFilter
+class Frequency
 
 end
