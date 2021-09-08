@@ -8,7 +8,7 @@ describe Frequency do
     expect(frequency.filter([10, 20])).to eq [10, 20]
   end
 
-  it "returns a sound wave unchanged when it's not below lowest frequency" do
+  it "returns a sound wave unchanged when frequencies are not below lowest frequency" do
     expect(frequency.filter([10, 30], 20)).to eq [10, 30]
   end
 
