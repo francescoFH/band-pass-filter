@@ -24,12 +24,20 @@
         "lines": [
           1,
           1,
+          null,
+          2,
+          4,
           1,
+          null,
+          3,
+          null,
+          null,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1631186821
+    "timestamp": 1631188425
   }
 }
