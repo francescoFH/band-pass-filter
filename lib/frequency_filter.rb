@@ -5,6 +5,8 @@ class Frequency
     new_sound_wave = sound_wave.map do |frequency|
       if frequency < lowest_frequency
         frequency = lowest_frequency
+      elsif frequency > highest_frequency
+        frequency = highest_frequency
       else
         frequency
       end
