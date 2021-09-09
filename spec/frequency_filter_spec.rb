@@ -21,7 +21,7 @@ describe Frequency do
   end
 
   it "returns error if frequencies are not given" do
-    expect(frequency.filter([], 20, 30)).to eq "soundtrack not given"
+    expect(frequency.filter([], 20, 30)).to eq "soundtrack not found"
   end
 
 end
