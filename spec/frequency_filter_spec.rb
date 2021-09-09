@@ -20,4 +20,8 @@ describe Frequency do
     expect(frequency.filter([10, 40], 20, 30)).to eq [20, 30]
   end
 
+  it "returns error if frequencies are not given" do
+    expect(frequency.filter([], 20, 30)).to eq "soundtrack not given"
+  end
+
 end
