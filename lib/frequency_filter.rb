@@ -12,5 +12,5 @@ class Frequency
 
     new_sound_wave
   end
-  
+
 end
